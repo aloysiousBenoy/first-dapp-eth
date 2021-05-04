@@ -1,0 +1,147 @@
+{
+    "contracts": {
+        "/home/raider0ne/projects/blockchain/first-dapp/contracts/todolist.sol": {
+            "Todolist": {
+                "abi": [
+                    {
+                        "constant": true,
+                        "inputs": [],
+                        "name": "taskCount",
+                        "outputs": [
+                            {
+                                "name": "",
+                                "type": "uint256"
+                            }
+                        ],
+                        "payable": false,
+                        "stateMutability": "view",
+                        "type": "function"
+                    }
+                ],
+                "devdoc": {
+                    "methods": {}
+                },
+                "evm": {
+                    "bytecode": {
+                        "linkReferences": {},
+                        "object": "608060405260008055348015601357600080fd5b506099806100226000396000f3fe608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663b6cb58a581146043575b600080fd5b348015604e57600080fd5b5060556067565b60408051918252519081900360200190f35b6000548156fea165627a7a7230582057638d6ec8fd606eae41601811a22e8240b9fbe19f116b4ba220febb4b3c188a0029",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 SSTORE CALLVALUE DUP1 ISZERO PUSH1 0x13 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x99 DUP1 PUSH2 0x22 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x3E JUMPI PUSH4 0xFFFFFFFF PUSH29 0x100000000000000000000000000000000000000000000000000000000 PUSH1 0x0 CALLDATALOAD DIV AND PUSH4 0xB6CB58A5 DUP2 EQ PUSH1 0x43 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST CALLVALUE DUP1 ISZERO PUSH1 0x4E JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x55 PUSH1 0x67 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x0 SLOAD DUP2 JUMP INVALID LOG1 PUSH6 0x627A7A723058 KECCAK256 JUMPI PUSH4 0x8D6EC8FD PUSH1 0x6E 0xae COINBASE PUSH1 0x18 GT LOG2 0x2e DUP3 BLOCKHASH 0xb9 0xfb 0xe1 SWAP16 GT PUSH12 0x4BA220FEBB4B3C188A002900 ",
+                        "sourceMap": "25:49:0:-;;;70:1;46:25;;25:49;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:49:0;;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "linkReferences": {},
+                        "object": "608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663b6cb58a581146043575b600080fd5b348015604e57600080fd5b5060556067565b60408051918252519081900360200190f35b6000548156fea165627a7a7230582057638d6ec8fd606eae41601811a22e8240b9fbe19f116b4ba220febb4b3c188a0029",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x3E JUMPI PUSH4 0xFFFFFFFF PUSH29 0x100000000000000000000000000000000000000000000000000000000 PUSH1 0x0 CALLDATALOAD DIV AND PUSH4 0xB6CB58A5 DUP2 EQ PUSH1 0x43 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST CALLVALUE DUP1 ISZERO PUSH1 0x4E JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x55 PUSH1 0x67 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x0 SLOAD DUP2 JUMP INVALID LOG1 PUSH6 0x627A7A723058 KECCAK256 JUMPI PUSH4 0x8D6EC8FD PUSH1 0x6E 0xae COINBASE PUSH1 0x18 GT LOG2 0x2e DUP3 BLOCKHASH 0xb9 0xfb 0xe1 SWAP16 GT PUSH12 0x4BA220FEBB4B3C188A002900 ",
+                        "sourceMap": "25:49:0:-;;;;;;;;;;;;;;;;;;;;;;;46:25;;8:9:-1;5:2;;;30:1;27;20:12;5:2;46:25:0;;;;;;;;;;;;;;;;;;;;;;;;:::o"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "30600",
+                            "executionCost": "5087",
+                            "totalCost": "35687"
+                        },
+                        "external": {
+                            "taskCount()": "384"
+                        }
+                    },
+                    "methodIdentifiers": {
+                        "taskCount()": "b6cb58a5"
+                    }
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"taskCount\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/raider0ne/projects/blockchain/first-dapp/contracts/todolist.sol\":\"Todolist\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/raider0ne/projects/blockchain/first-dapp/contracts/todolist.sol\":{\"keccak256\":\"0x08dbd74135b9a99a7c53e49c46b6bb29c2272fe5904d94ea1333a98385a35666\",\"urls\":[\"bzzr://cf0d7495c59c8d0e587e5091d4c01b80e5f53f4930dc38067beefb4db6ed2f07\"]}},\"version\":1}",
+                "userdoc": {
+                    "methods": {}
+                }
+            }
+        }
+    },
+    "sources": {
+        "/home/raider0ne/projects/blockchain/first-dapp/contracts/todolist.sol": {
+            "ast": {
+                "absolutePath": "/home/raider0ne/projects/blockchain/first-dapp/contracts/todolist.sol",
+                "exportedSymbols": {
+                    "Todolist": [
+                        5
+                    ]
+                },
+                "id": 6,
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.5",
+                            ".0"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "0:23:0"
+                    },
+                    {
+                        "baseContracts": [],
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "documentation": null,
+                        "fullyImplemented": true,
+                        "id": 5,
+                        "linearizedBaseContracts": [
+                            5
+                        ],
+                        "name": "Todolist",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "constant": false,
+                                "id": 4,
+                                "name": "taskCount",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 5,
+                                "src": "46:25:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                },
+                                "typeName": {
+                                    "id": 2,
+                                    "name": "uint",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "46:4:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    }
+                                },
+                                "value": {
+                                    "argumentTypes": null,
+                                    "hexValue": "30",
+                                    "id": 3,
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": true,
+                                    "kind": "number",
+                                    "lValueRequested": false,
+                                    "nodeType": "Literal",
+                                    "src": "70:1:0",
+                                    "subdenomination": null,
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_rational_0_by_1",
+                                        "typeString": "int_const 0"
+                                    },
+                                    "value": "0"
+                                },
+                                "visibility": "public"
+                            }
+                        ],
+                        "scope": 6,
+                        "src": "25:49:0"
+                    }
+                ],
+                "src": "0:74:0"
+            },
+            "id": 0
+        }
+    }
+}
