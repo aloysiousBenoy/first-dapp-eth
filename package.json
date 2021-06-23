@@ -29,8 +29,5 @@
   "bugs": {
     "url": "https://github.com/aloysiousBenoy/first-dapp-eth/issues"
   },
-  "homepage": "https://github.com/aloysiousBenoy/first-dapp-eth#readme",
-  "dependencies": {
-    "web3": "^0.20.6"
-  }
+  "homepage": "https://github.com/aloysiousBenoy/first-dapp-eth#readme"
 }
